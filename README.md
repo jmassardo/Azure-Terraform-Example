@@ -49,4 +49,15 @@ This file is also used to run commands/scripts. This is called Provisioning in T
 * [Local Execution](https://www.terraform.io/docs/provisioners/local-exec.html)
 * [Remote Execution](https://www.terraform.io/docs/provisioners/remote-exec.html)
 
-One  thing to keep in mind with these provisioner is the Local execution tasks run locally on the system were Terraform is being run. Remote execution tasks are remotely executed on the target system being created.
+One thing to keep in mind with these provisioner is the Local execution tasks run locally on the system were Terraform is being run. Remote execution tasks are remotely executed on the target system being created.
+
+Once you have the files configured, it's a simple command to spin them up:
+
+```
+terraform apply
+```
+
+and an equally simple command to tear it down:
+```
+terraform destroy
+```
